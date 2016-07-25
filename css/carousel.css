@@ -5,7 +5,7 @@
     /* --- Center through the page ---- */
     position: absolute;
     margin-left: 50%;
-    left: -450px;
+    left: -300px;
     overflow: hidden;
     white-space: nowrap;
 }
