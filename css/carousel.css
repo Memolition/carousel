@@ -1,0 +1,29 @@
+#carousel {
+    border: 1px solid;
+    width: 600px;
+    height: 500px;
+    /* --- Center through the page ---- */
+    position: absolute;
+    margin-left: 50%;
+    left: -450px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.slide {
+    margin: 0px;
+    display: inline-block;
+    width: 600px;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide_description {
+    z-index: 300;
+    background: #ccc;
+    color: #fff;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
